@@ -7,7 +7,7 @@ Dim consumo,tconsumo As Double
 			For index=1 To 20 
 			Console.WriteLine("Ingresar tu consumo n°{0}",index)
 			consumo = CDbl(Console.Readline())
-			If consumo = 50 Then
+			If consumo >= 50 Then
 				bono +=1
 			Else
 				tconsumo +=consumo
